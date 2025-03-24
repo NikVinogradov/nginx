@@ -1,0 +1,11 @@
+2025/03/24 10:25:36 [error] 189156#189888: *1 CreateFile() "C:\Users\NVinogradov\Downloads\nginx-1.26.3\nginx-1.26.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2025/03/24 10:27:54 [error] 189008#187956: *1 CreateFile() "C:\Users\NVinogradov\Downloads\nginx-1.26.3\nginx-1.26.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/03/24 10:45:48 [notice] 190968#192180: signal process started
+2025/03/24 10:47:05 [notice] 191996#176568: signal process started
+2025/03/24 10:50:26 [emerg] 176296#190428: unexpected "}" in C:\Users\NVinogradov\source\repos\nginx\nginx\nginx-1.26.3\nginx-1.26.3/conf/nginx.conf:23
+2025/03/24 10:50:56 [notice] 169760#188952: signal process started
+2025/03/24 10:55:56 [notice] 190580#192056: signal process started
+2025/03/24 10:56:17 [notice] 190212#172192: signal process started
+2025/03/24 10:57:39 [error] 193424#182412: *18 CreateFile() "C:/Users/NVinogradov/source/repos/nginx/nginx/nginx-1.26.3/nginx_video/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/03/24 11:03:04 [notice] 194972#193956: signal process started
+2025/03/24 11:09:17 [emerg] 195652#195680: host not found in upstream "api" in C:\Users\NVinogradov\source\repos\nginx\nginx\nginx-1.26.3\nginx-1.26.3/conf/nginx.conf:35
