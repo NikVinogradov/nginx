@@ -30,3 +30,25 @@ upstream api {
 }
 
 and change location
+
+5) Buffer
+
+location / {
+    proxy_buffering on;
+    proxy_request_buffering on;
+}
+
+6) Cache
+
+location /api/slow_data {
+    proxy_cache my_cache;
+    proxy_cache_valid 200 10m;
+}
+
+7) If clients are slow
+proxy_read_timeout 300;
+proxy_send_timeout 300; 
+
+8) Connection settings
+worker_connections 10240;
+keepalive_timeout 65;
